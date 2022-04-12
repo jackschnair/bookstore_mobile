@@ -11,7 +11,8 @@
         android:theme="@style/Theme.Movies"
         android:usesCleartextTraffic="true">
         <activity android:name="com.example.book_search.PageBook" />
-            <activity android:name="com.example.book_search.BookSearchQuery" >
+        <activity android:name="com.example.book_search.BookSearchQuery" />
+        <activity android:name="com.example.book_search.StartScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
